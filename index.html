@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prototipo 4</title>
+</head>
+<body>
+    <br>
+    <button><a href="long in/index.html">Iniciar session para cordinadores</a></button>
+    <br>
+    <br>
+    <select id="docente">
+        <option value="." selected disabled>Selecciona el nombre del docente</option>
+        <option value="Adriana Sotelo">Adriana Sotelo</option>
+        <option value="Mauricio Foronda">Mauricio Foronda</option>
+        <option value="Luis Sanchez">Luis Sanchez</option>
+        <option value="Edison Marin">Edison Marin</option>
+    </select>
+    <select id="horasNoDadas">
+        <option value="." selected disabled>Horas de clase no efectivas</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+    <select id="motivo" class="oculto">
+        <option value="." selected disabled>Seleccione un motivo</option>
+        <option value="Ausencia del docente">Ausencia del docente</option>
+        <option value="Actividad Institucional">Actividad Institucional</option>
+        <option value="Actividad Externa">Actividad Externa</option>
+        <option value="Incapacidad">Incapacidad</option>
+    </select>
+    <input type="date" id="fecha">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <button id="enviar">Enviar</button>
+    <script src="script.js"></script>
+
+</body>
+</html>
