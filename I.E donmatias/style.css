@@ -1,0 +1,134 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#B4F22E, #fff);
+    text-align: center;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+/*---Login---*/
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    height: 60vh;
+    background-color: #ffffff6c;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.contenedorLogin {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.contenedorLogin input {
+    margin-bottom: 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #796262a8;
+    border-radius: 3px;
+}
+.contenedorLogin select {
+    margin-bottom: 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #796262a8;
+    border-radius: 3px;
+}
+.contenedorLogin input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #796262a8;
+    border-radius: 3px;
+}
+.contenedorLogin select:focus {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #796262a8;
+    border-radius: 3px;
+}
+
+.contenedorLogin label {
+    margin-bottom: 10px;
+}
+
+.contenedorLogin button {
+    align-self: center;
+    border: none;
+    background-color: #B4F22E;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 3vh;
+    width: 50vw;
+}
+.check {
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bolder;
+    gap: 6px;
+    line-height: 1;
+}
+
+.check input[type="checkbox"] {
+    vertical-align: middle;
+    margin: 0;
+    position: relative;
+    top: 1px; 
+}
+
+.a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+/*---Escudo---*/
+.escudo {
+    width: 75px;
+    position: fixed;
+    top: 1vh;
+    left: 0;
+}
+
+.bandera {
+    width: 60px;
+    position: fixed;
+    right: 0;
+    top: 1vh;
+}
+
+/*---Nombre del colegio---*/
+.cole {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: max-content;
+    font-size: 18px;
+}
